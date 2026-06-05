@@ -75,6 +75,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x0000, /* TAS2783A */
 		.name_prefix = "tas2783",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, true},
@@ -255,6 +256,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 		.part_id = 0x1308,
 		.name_prefix = "rt1308",
 		.acpi_id = "10EC1308",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, false},
@@ -277,6 +279,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x1316,
 		.name_prefix = "rt1316",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, true},
@@ -298,6 +301,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x1318,
 		.name_prefix = "rt1318",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, true},
@@ -515,6 +519,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x8373,
 		.name_prefix = "Left",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, true},
@@ -535,6 +540,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x8363,
 		.name_prefix = "Left",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, false},
@@ -573,6 +579,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x3556,
 		.name_prefix = "AMP",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, false},
@@ -600,6 +607,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x3557,
 		.name_prefix = "AMP",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, false},
@@ -627,6 +635,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x3563,
 		.name_prefix = "AMP",
+		.is_amp = true,
 		.dais = {
 			{
 				.direction = {true, false},
@@ -802,6 +811,7 @@ struct asoc_sdw_codec_info codec_info_list[] = {
 	{
 		.part_id = 0x55aa, /* amplifier mockup */
 		.name_prefix = "sdw_mockup_amp1",
+		.is_amp = true,
 		.version_id = 0,
 		.dais = {
 			{
